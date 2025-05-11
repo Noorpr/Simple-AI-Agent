@@ -1,28 +1,31 @@
-# AI Agent with Google Gemini GenAI
 
-This project aims to create a simple AI agent using Google's famous **Gemini GenAI** tools. The AI agent integrates multiple functionalities to assist users with various tasks. It's currently in progress, and the code is built on top of **Langchain** and other modern libraries.
+# 🤖 AI Agent using Google Gemini GenAI
 
-### ⚠️ **Project Status:**
-This project is still a work in progress. Below are some of the planned future updates:
+This project is an experimental **AI Agent** powered by **Google's Gemini GenAI** and the **LangChain** ecosystem. The goal is to build a flexible, interactive assistant that can process user input, invoke tools, and respond intelligently—all through conversational AI.
 
-1. **Add a UI wrap around the AI chat.**  
-2. **Integrate more tools to expand the agent’s capabilities.**
-3. **Fine-tune the model for better accuracy and efficiency.**
-4. **Add voice chat capabilities for more interactive sessions.**
+---
 
-*Note: These plans are not guaranteed due to a busy schedule.*
+## 🚧 Project Status: In Progress
 
-### 📝 **Project Requirements**
+> ⚠️ This project is currently under active development.
 
-To get started with this project, you need to set up the following dependencies:
+The core functionalities are in place, and future enhancements are planned to significantly expand the agent’s capabilities:
 
-#### Python Version:
-- **Python 3.13 or higher** is required.
+### 🧭 Planned Features (Not guaranteed due to a busy schedule)
+- 🖥️ **Add a graphical UI** for the chat experience.  
+- 🧰 **Incorporate additional tools** to handle more complex tasks.  
+- 🧠 **Fine-tune the model** for higher contextual accuracy.  
+- 🎙️ **Introduce voice interaction** for hands-free communication.
 
-#### Dependencies:
-Below are the required dependencies for the project:
+---
 
-```bash
+## 📦 Dependencies
+
+### ✅ Python Version
+Requires **Python 3.13+**
+
+### 📚 Required Libraries
+```toml
 requires-python = ">=3.13"
 dependencies = [
     "google-generativeai>=0.8.5",
@@ -34,11 +37,57 @@ dependencies = [
 ]
 ```
 
-### 🚀 **Getting Started**:
+---
 
-1. **Clone the Repository:**
-Clone this repository to your local machine.
+## 🚀 Getting Started
 
+### 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/your-repo-name.git
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
 ```
+
+### 2. Set up environment variables
+Create a `.env` file and add your Gemini API key and any other required environment variables:
+```
+GOOGLE_API_KEY=your_key_here
+```
+
+### 3. Install the dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Run the project
+```bash
+python main.py
+```
+
+---
+
+## 💬 What It Can Do
+
+Once running, your AI agent can:
+
+- Respond to user input intelligently using Gemini
+- Use custom tools such as a calculator
+- Be extended easily with new tool definitions
+- Provide streamed conversational output
+
+---
+
+## 💡 Inspiration
+
+This project was inspired by the [**Tech With Tim**](https://www.youtube.com/@TechWithTim) YouTube channel. Huge thanks to Tim for his educational and practical AI content!
+
+---
+
+## 🤝 Contributions
+
+Contributions, feedback, and ideas are welcome. Feel free to open an issue or submit a pull request.
+
+---
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
